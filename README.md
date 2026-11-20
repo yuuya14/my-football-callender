@@ -1,11 +1,11 @@
 # サッカー日程カレンダー（iPhone購読用）
 
-Man Utd のチャンピオンズリーグと、浦和レッズの J1・ルヴァンカップ・天皇杯の日程を、
+Man Utd のチャンピオンズリーグ・カラバオカップ・FAカップと、浦和レッズの J1・ルヴァンカップ・天皇杯の日程を、
 iPhone の「照会カレンダー」として購読できる .ics にするための仕組みです。
 
 ```
 data/*.csv          ← 日程データ（ここだけ編集すればOK）
-calendars.json      ← カレンダー名・タイムゾーン等の設定
+calendars.json      ← カレンダー名・タイムゾーン・タイトル先頭の絵文字（title_prefix）等の設定
 build_ics.py        ← CSV → .ics 変換スクリプト
 docs/*.ics          ← 生成されたカレンダー（公開・購読される本体）
 docs/index.html     ← iPhoneでタップして登録するためのページ
@@ -50,7 +50,24 @@ GitHub Actions が自動で .ics を作り直し、iPhone 側にも数時間以�
 - `time` は**現地時間**で入力します（UCL は英国時間。iPhone では日本時間に自動変換されます）
 - 時刻が空欄の試合は「終日予定」として入ります
 
-## 4. ローカルで生成する場合
+### ローカルで編集して push する場合の注意
+
+push のたびに GitHub Actions が `docs/*.ics` を作り直してコミットするため、
+**作業を始める前に必ず `git pull` してください**（しないと push が rejected になります）。
+
+```bash
+cd ~/Documents/Github/football-calendar
+git pull            # ← 最初に必ず
+# CSVなどを編集
+git add . && git commit -m "日程更新" && git push
+```
+
+## 4. タイトル先頭の絵文字を変える
+
+`calendars.json` の `"title_prefix": "⚽️"` を書き換えます（空にすれば絵文字なし）。
+特定のカレンダーだけ変えたい場合は、そのカレンダーの設定に `"title_prefix": "🏆"` のように追加します。
+
+## 5. ローカルで生成する場合
 
 ```bash
 python3 build_ics.py   # Python 3.9以上、追加ライブラリ不要

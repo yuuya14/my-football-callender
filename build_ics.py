@@ -3,6 +3,7 @@
 
 使い方:  python3 build_ics.py
 入力:    calendars.json と data/*.csv
+         calendars.json の "title_prefix" が全予定タイトルの先頭に付く（例: ⚽️）
 出力:    docs/<key>.ics（GitHub Pagesでそのまま公開できる）
 
 CSVの列:
@@ -54,7 +55,7 @@ def md(d: date) -> str:
     return f"{d.month}/{d.day}({WEEKDAYS[d.weekday()]})"
 
 
-def build_event(cfg: dict, row: dict, stamp: str) -> list[str]:
+def build_event(cfg: dict, row: dict, stamp: str, prefix: str = "") -> list[str]:
     tz = ZoneInfo(cfg["tz"])
     d1 = date.fromisoformat(row["date"])
     d2 = date.fromisoformat(row["date_alt"]) if row.get("date_alt") else None
@@ -68,7 +69,7 @@ def build_event(cfg: dict, row: dict, stamp: str) -> list[str]:
     else:
         card = f"{home} vs {away}"
 
-    title = f"【{cfg['label']} {row['round']}】{card}"
+    title = f"{prefix}【{cfg['label']} {row['round']}】{card}"
     if result:
         title += f" {result}"
     if d2:
@@ -114,7 +115,7 @@ def build_event(cfg: dict, row: dict, stamp: str) -> list[str]:
     return lines
 
 
-def build_calendar(cfg: dict) -> tuple[str, int]:
+def build_calendar(cfg: dict, prefix: str = "") -> tuple[str, int]:
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     with open(ROOT / cfg["csv"], encoding="utf-8-sig", newline="") as f:
         rows = [r for r in csv.DictReader(f) if r.get("id", "").strip()]
@@ -126,16 +127,20 @@ def build_calendar(cfg: dict) -> tuple[str, int]:
              "REFRESH-INTERVAL;VALUE=DURATION:PT6H",
              "X-PUBLISHED-TTL:PT6H"]
     for row in rows:
-        lines += build_event(cfg, row, stamp)
+        lines += build_event(cfg, row, stamp, prefix)
     lines.append("END:VCALENDAR")
     return "\r\n".join(fold(l) for l in lines) + "\r\n", len(rows)
 
 
 def main() -> None:
     OUT.mkdir(exist_ok=True)
-    configs = json.loads((ROOT / "calendars.json").read_text(encoding="utf-8"))
-    for cfg in configs:
-        text, n = build_calendar(cfg)
+    settings = json.loads((ROOT / "calendars.json").read_text(encoding="utf-8"))
+    if isinstance(settings, list):  # 旧形式（リストのみ）にも対応
+        settings = {"calendars": settings}
+    for cfg in settings["calendars"]:
+        # カレンダーごとに title_prefix を指定すればそちらが優先される
+        prefix = cfg.get("title_prefix", settings.get("title_prefix", ""))
+        text, n = build_calendar(cfg, prefix)
         (OUT / f"{cfg['key']}.ics").write_text(text, encoding="utf-8", newline="")
         print(f"{cfg['key']}.ics: {n}試合")
 
