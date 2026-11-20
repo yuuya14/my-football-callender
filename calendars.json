@@ -1,0 +1,38 @@
+[
+  {
+    "key": "manutd_ucl",
+    "csv": "data/manutd_ucl.csv",
+    "name": "Man Utd チャンピオンズリーグ",
+    "label": "UCL",
+    "tz": "Europe/London",
+    "tz_label": "英国時間",
+    "duration_min": 120
+  },
+  {
+    "key": "urawa_j1",
+    "csv": "data/urawa_j1.csv",
+    "name": "浦和レッズ J1リーグ",
+    "label": "J1",
+    "tz": "Asia/Tokyo",
+    "tz_label": "日本時間",
+    "duration_min": 120
+  },
+  {
+    "key": "urawa_levain",
+    "csv": "data/urawa_levain.csv",
+    "name": "浦和レッズ ルヴァンカップ",
+    "label": "ルヴァン",
+    "tz": "Asia/Tokyo",
+    "tz_label": "日本時間",
+    "duration_min": 120
+  },
+  {
+    "key": "urawa_emperor",
+    "csv": "data/urawa_emperor.csv",
+    "name": "浦和レッズ 天皇杯",
+    "label": "天皇杯",
+    "tz": "Asia/Tokyo",
+    "tz_label": "日本時間",
+    "duration_min": 120
+  }
+]

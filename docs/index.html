@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>サッカー日程カレンダー</title>
+<style>
+  body { font-family: -apple-system, "Hiragino Sans", sans-serif; max-width: 520px; margin: 0 auto; padding: 24px 16px; color: #1d1d1f; background: #f5f5f7; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  p.lead { color: #6e6e73; font-size: 14px; margin: 0 0 20px; }
+  a.cal { display: flex; align-items: center; gap: 12px; padding: 16px; margin-bottom: 12px; background: #fff; border-radius: 14px; text-decoration: none; color: inherit; box-shadow: 0 1px 2px rgba(0,0,0,.06); }
+  .dot { width: 12px; height: 12px; border-radius: 50%; flex: none; }
+  .name { font-weight: 600; }
+  .sub { font-size: 12px; color: #6e6e73; }
+  .copy { margin-left: auto; font-size: 12px; color: #0071e3; background: none; border: 0; }
+  footer { font-size: 12px; color: #6e6e73; margin-top: 20px; line-height: 1.7; }
+</style>
+</head>
+<body>
+<h1>サッカー日程カレンダー</h1>
+<p class="lead">iPhoneでタップすると「照会カレンダー」として登録できます。</p>
+<div id="list"></div>
+<footer>
+  日程データを更新すると、登録済みのiPhoneにも自動で反映されます（反映まで数時間かかることがあります）。<br>
+  手動で反映したいときは、カレンダーアプリの「カレンダー」一覧を下に引っ張って更新してください。
+</footer>
+<script>
+  const cals = [
+    { key: "manutd_ucl",    name: "Man Utd チャンピオンズリーグ", sub: "リーグフェーズ", color: "#da291c" },
+    { key: "urawa_j1",      name: "浦和レッズ J1リーグ",          sub: "2026/27シーズン", color: "#e60012" },
+    { key: "urawa_levain",  name: "浦和レッズ ルヴァンカップ",    sub: "2026/27シーズン", color: "#f39800" },
+    { key: "urawa_emperor", name: "浦和レッズ 天皇杯",            sub: "第106回",         color: "#1d2088" }
+  ];
+  const base = location.href.replace(/[^/]*$/, "");
+  const list = document.getElementById("list");
+  for (const c of cals) {
+    const https = base + c.key + ".ics";
+    const webcal = https.replace(/^https?:/, "webcal:");
+    const a = document.createElement("a");
+    a.className = "cal";
+    a.href = webcal;
+    a.innerHTML = `<span class="dot" style="background:${c.color}"></span>
+      <span><div class="name">${c.name}</div><div class="sub">${c.sub}</div></span>
+      <button class="copy" type="button">URLをコピー</button>`;
+    a.querySelector(".copy").addEventListener("click", e => {
+      e.preventDefault(); e.stopPropagation();
+      navigator.clipboard.writeText(https).then(() => { e.target.textContent = "コピーしました"; });
+    });
+    list.appendChild(a);
+  }
+</script>
+</body>
+</html>

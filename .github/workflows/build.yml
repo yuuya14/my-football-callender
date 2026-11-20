@@ -1,0 +1,31 @@
+name: Build calendars
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "calendars.json"
+      - "build_ics.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate .ics
+        run: python3 build_ics.py
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/*.ics
+          git diff --cached --quiet || git commit -m "Update calendars"
+          git push

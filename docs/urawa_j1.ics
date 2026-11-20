@@ -1,0 +1,493 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//football-calendar//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:浦和レッズ J1リーグ
+X-WR-TIMEZONE:Asia/Tokyo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r01@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART:20260807T103000Z
+DTEND:20260807T123000Z
+SUMMARY:【J1 第1節】G大阪 vs 浦和 ●3-4
+LOCATION:パナソニック スタジアム 吹田
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第1節\n対
+ 戦: G大阪 vs 浦和\n会場: パナソニック スタジアム 吹田\
+ nキックオフ: 19:30（日本時間）\n結果: ●3-4
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r02@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART:20260815T100000Z
+DTEND:20260815T120000Z
+SUMMARY:【J1 第2節】浦和 vs 広島 ●1-4
+LOCATION:埼玉スタジアム2002
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第2節\n対
+ 戦: 浦和 vs 広島\n会場: 埼玉スタジアム2002\nキックオフ:
+  19:00（日本時間）\n結果: ●1-4
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r03@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART:20260823T103000Z
+DTEND:20260823T123000Z
+SUMMARY:【J1 第3節】町田 vs 浦和 ●1-3
+LOCATION:MUFGスタジアム（国立）
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第3節\n対
+ 戦: 町田 vs 浦和\n会場: MUFGスタジアム（国立）\nキック
+ オフ: 19:30（日本時間）\n結果: ●1-3
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r04@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART:20260829T100000Z
+DTEND:20260829T120000Z
+SUMMARY:【J1 第4節】浦和 vs 横浜FM ○3-2
+LOCATION:埼玉スタジアム2002
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第4節\n対
+ 戦: 浦和 vs 横浜FM\n会場: 埼玉スタジアム2002\nキックオ
+ フ: 19:00（日本時間）\n結果: ○3-2
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r05@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART:20260902T100000Z
+DTEND:20260902T120000Z
+SUMMARY:【J1 第5節】福岡 vs 浦和 ○3-2
+LOCATION:ベスト電器スタジアム
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第5節\n対
+ 戦: 福岡 vs 浦和\n会場: ベスト電器スタジアム\nキック
+ オフ: 19:00（日本時間）\n結果: ○3-2
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r06@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART:20260906T090000Z
+DTEND:20260906T110000Z
+SUMMARY:【J1 第6節】鹿島 vs 浦和 ○1-0
+LOCATION:メルカリスタジアム
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第6節\n対
+ 戦: 鹿島 vs 浦和\n会場: メルカリスタジアム\nキックオ
+ フ: 18:00（日本時間）\n結果: ○1-0
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r07@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART:20260913T093000Z
+DTEND:20260913T113000Z
+SUMMARY:【J1 第7節】浦和 vs 岡山 ●1-2
+LOCATION:埼玉スタジアム2002
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第7節\n対
+ 戦: 浦和 vs 岡山\n会場: 埼玉スタジアム2002\nキックオフ:
+  18:30（日本時間）\n結果: ●1-2
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r08@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART:20260919T093000Z
+DTEND:20260919T113000Z
+SUMMARY:【J1 第8節】浦和 vs 東京V ○3-1
+LOCATION:埼玉スタジアム2002
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第8節\n対
+ 戦: 浦和 vs 東京V\n会場: 埼玉スタジアム2002\nキックオフ
+ : 18:30（日本時間）\n結果: ○3-1
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r09@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART:20261010T060000Z
+DTEND:20261010T080000Z
+SUMMARY:【J1 第9節】FC東京 vs 浦和 ●0-3
+LOCATION:味の素スタジアム
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第9節\n対
+ 戦: FC東京 vs 浦和\n会場: 味の素スタジアム\nキックオフ
+ : 15:00（日本時間）\n結果: ●0-3
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r10@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART:20261017T070000Z
+DTEND:20261017T090000Z
+SUMMARY:【J1 第10節】水戸 vs 浦和 ○1-0
+LOCATION:水戸信用金庫スタジアム
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第10節\n
+ 対戦: 水戸 vs 浦和\n会場: 水戸信用金庫スタジアム\nキ
+ ックオフ: 16:00（日本時間）\n結果: ○1-0
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r11@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART:20261021T103000Z
+DTEND:20261021T123000Z
+SUMMARY:【J1 第11節】浦和 vs 千葉 ○3-2
+LOCATION:埼玉スタジアム2002
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第11節\n
+ 対戦: 浦和 vs 千葉\n会場: 埼玉スタジアム2002\nキックオ
+ フ: 19:30（日本時間）\n結果: ○3-2
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r12@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART:20261025T060000Z
+DTEND:20261025T080000Z
+SUMMARY:【J1 第12節】浦和 vs 長崎 ○1-0
+LOCATION:埼玉スタジアム2002
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第12節\n
+ 対戦: 浦和 vs 長崎\n会場: 埼玉スタジアム2002\nキックオ
+ フ: 15:00（日本時間）\n結果: ○1-0
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r13@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART:20261031T070000Z
+DTEND:20261031T090000Z
+SUMMARY:【J1 第13節】柏 vs 浦和 ●0-4
+LOCATION:三協フロンテア柏スタジアム
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第13節\n
+ 対戦: 柏 vs 浦和\n会場: 三協フロンテア柏スタジアム\n
+ キックオフ: 16:00（日本時間）\n結果: ●0-4
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r14@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART:20261108T050000Z
+DTEND:20261108T070000Z
+SUMMARY:【J1 第14節】神戸 vs 浦和 △2-2
+LOCATION:MUFGスタジアム（国立）
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第14節\n
+ 対戦: 神戸 vs 浦和\n会場: MUFGスタジアム（国立）\nキッ
+ クオフ: 14:00（日本時間）\n結果: △2-2
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r15@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART:20261121T050000Z
+DTEND:20261121T070000Z
+SUMMARY:【J1 第15節】京都 vs 浦和
+LOCATION:サンガスタジアム by KYOCERA
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第15節\n
+ 対戦: 京都 vs 浦和\n会場: サンガスタジアム by KYOCERA\nキ
+ ックオフ: 14:00（日本時間）
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r16@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART:20261125T103000Z
+DTEND:20261125T123000Z
+SUMMARY:【J1 第16節】浦和 vs C大阪
+LOCATION:埼玉スタジアム2002
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第16節\n
+ 対戦: 浦和 vs C大阪\n会場: 埼玉スタジアム2002\nキックオ
+ フ: 19:30（日本時間）
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r17@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART:20261128T050000Z
+DTEND:20261128T070000Z
+SUMMARY:【J1 第17節】清水 vs 浦和
+LOCATION:IAIスタジアム日本平
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第17節\n
+ 対戦: 清水 vs 浦和\n会場: IAIスタジアム日本平\nキック
+ オフ: 14:00（日本時間）
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r18@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART:20261205T050000Z
+DTEND:20261205T070000Z
+SUMMARY:【J1 第18節】浦和 vs 名古屋
+LOCATION:埼玉スタジアム2002
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第18節\n
+ 対戦: 浦和 vs 名古屋\n会場: 埼玉スタジアム2002\nキック
+ オフ: 14:00（日本時間）
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r19@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART:20261213T060000Z
+DTEND:20261213T080000Z
+SUMMARY:【J1 第19節】浦和 vs 川崎F
+LOCATION:埼玉スタジアム2002
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第19節\n
+ 対戦: 浦和 vs 川崎F\n会場: 埼玉スタジアム2002\nキックオ
+ フ: 15:00（日本時間）
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r20@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART:20261219T053000Z
+DTEND:20261219T073000Z
+SUMMARY:【J1 第20節】長崎 vs 浦和
+LOCATION:PEACE STADIUM Connected by SoftBank
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第20節\n
+ 対戦: 長崎 vs 浦和\n会場: PEACE STADIUM Connected by SoftBank\nキ
+ ックオフ: 14:30（日本時間）
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r21@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+TRANSP:TRANSPARENT
+SUMMARY:【J1 第21節】東京V vs 浦和（時刻未定）
+LOCATION:MUFGスタジアム（国立）
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第21節\n
+ 対戦: 東京V vs 浦和\n会場: MUFGスタジアム（国立）\nキッ
+ クオフ: 未定
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r22@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270222
+TRANSP:TRANSPARENT
+SUMMARY:【J1 第22節】浦和 vs 鹿島（2/20(土) or 2/21(日)）
+LOCATION:埼玉スタジアム2002
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第22節\n
+ 対戦: 浦和 vs 鹿島\n会場: 埼玉スタジアム2002\nキックオ
+ フ: 未定\n開催日: 2/20(土) または 2/21(日)（確定後に更新
+ ）
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r23@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270301
+TRANSP:TRANSPARENT
+SUMMARY:【J1 第23節】名古屋 vs 浦和（2/27(土) or 2/28(日)）
+LOCATION:会場未定
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第23節\n
+ 対戦: 名古屋 vs 浦和\n会場: 会場未定\nキックオフ: 未定
+ \n開催日: 2/27(土) または 2/28(日)（確定後に更新）
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r24@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270308
+TRANSP:TRANSPARENT
+SUMMARY:【J1 第24節】川崎F vs 浦和（3/6(土) or 3/7(日)）
+LOCATION:Uvanceとどろきスタジアム by Fujitsu
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第24節\n
+ 対戦: 川崎F vs 浦和\n会場: Uvanceとどろきスタジアム by Fu
+ jitsu\nキックオフ: 未定\n開催日: 3/6(土) または 3/7(日)（
+ 確定後に更新）
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r25@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+TRANSP:TRANSPARENT
+SUMMARY:【J1 第25節】浦和 vs FC東京（時刻未定）
+LOCATION:埼玉スタジアム2002
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第25節\n
+ 対戦: 浦和 vs FC東京\n会場: 埼玉スタジアム2002\nキック
+ オフ: 未定
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r26@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+TRANSP:TRANSPARENT
+SUMMARY:【J1 第26節】千葉 vs 浦和（時刻未定）
+LOCATION:MUFGスタジアム（国立）
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第26節\n
+ 対戦: 千葉 vs 浦和\n会場: MUFGスタジアム（国立）\nキッ
+ クオフ: 未定
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r27@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270322
+TRANSP:TRANSPARENT
+SUMMARY:【J1 第27節】横浜FM vs 浦和（3/20(土) or 3/21(日)）
+LOCATION:日産スタジアム
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第27節\n
+ 対戦: 横浜FM vs 浦和\n会場: 日産スタジアム\nキックオフ
+ : 未定\n開催日: 3/20(土) または 3/21(日)（確定後に更新）
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r28@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270405
+TRANSP:TRANSPARENT
+SUMMARY:【J1 第28節】浦和 vs 清水（4/3(土) or 4/4(日)）
+LOCATION:埼玉スタジアム2002
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第28節\n
+ 対戦: 浦和 vs 清水\n会場: 埼玉スタジアム2002\nキックオ
+ フ: 未定\n開催日: 4/3(土) または 4/4(日)（確定後に更新
+ ）
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r29@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270412
+TRANSP:TRANSPARENT
+SUMMARY:【J1 第29節】浦和 vs 柏（4/10(土) or 4/11(日)）
+LOCATION:埼玉スタジアム2002
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第29節\n
+ 対戦: 浦和 vs 柏\n会場: 埼玉スタジアム2002\nキックオフ:
+  未定\n開催日: 4/10(土) または 4/11(日)（確定後に更新）
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r30@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270419
+TRANSP:TRANSPARENT
+SUMMARY:【J1 第30節】岡山 vs 浦和（4/17(土) or 4/18(日)）
+LOCATION:JFE晴れの国スタジアム
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第30節\n
+ 対戦: 岡山 vs 浦和\n会場: JFE晴れの国スタジアム\nキッ
+ クオフ: 未定\n開催日: 4/17(土) または 4/18(日)（確定後に
+ 更新）
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r31@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270426
+TRANSP:TRANSPARENT
+SUMMARY:【J1 第31節】浦和 vs 水戸（4/24(土) or 4/25(日)）
+LOCATION:埼玉スタジアム2002
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第31節\n
+ 対戦: 浦和 vs 水戸\n会場: 埼玉スタジアム2002\nキックオ
+ フ: 未定\n開催日: 4/24(土) または 4/25(日)（確定後に更新
+ ）
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r32@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+TRANSP:TRANSPARENT
+SUMMARY:【J1 第32節】浦和 vs 町田（時刻未定）
+LOCATION:埼玉スタジアム2002
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第32節\n
+ 対戦: 浦和 vs 町田\n会場: 埼玉スタジアム2002\nキックオ
+ フ: 未定
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r33@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270505
+TRANSP:TRANSPARENT
+SUMMARY:【J1 第33節】広島 vs 浦和（5/3(月) or 5/4(火)）
+LOCATION:エディオンピースウイング広島
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第33節\n
+ 対戦: 広島 vs 浦和\n会場: エディオンピースウイング広
+ 島\nキックオフ: 未定\n開催日: 5/3(月) または 5/4(火)（確
+ 定後に更新）
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r34@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+TRANSP:TRANSPARENT
+SUMMARY:【J1 第34節】浦和 vs 神戸（時刻未定）
+LOCATION:埼玉スタジアム2002
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第34節\n
+ 対戦: 浦和 vs 神戸\n会場: 埼玉スタジアム2002\nキックオ
+ フ: 未定
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r35@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270517
+TRANSP:TRANSPARENT
+SUMMARY:【J1 第35節】浦和 vs 福岡（5/15(土) or 5/16(日)）
+LOCATION:埼玉スタジアム2002
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第35節\n
+ 対戦: 浦和 vs 福岡\n会場: 埼玉スタジアム2002\nキックオ
+ フ: 未定\n開催日: 5/15(土) または 5/16(日)（確定後に更新
+ ）
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r36@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART;VALUE=DATE:20270522
+DTEND;VALUE=DATE:20270524
+TRANSP:TRANSPARENT
+SUMMARY:【J1 第36節】浦和 vs 京都（5/22(土) or 5/23(日)）
+LOCATION:埼玉スタジアム2002
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第36節\n
+ 対戦: 浦和 vs 京都\n会場: 埼玉スタジアム2002\nキックオ
+ フ: 未定\n開催日: 5/22(土) または 5/23(日)（確定後に更新
+ ）
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r37@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART;VALUE=DATE:20270529
+DTEND;VALUE=DATE:20270531
+TRANSP:TRANSPARENT
+SUMMARY:【J1 第37節】C大阪 vs 浦和（5/29(土) or 5/30(日)）
+LOCATION:YANMAR HANASAKA STADIUM
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第37節\n
+ 対戦: C大阪 vs 浦和\n会場: YANMAR HANASAKA STADIUM\nキックオ
+ フ: 未定\n開催日: 5/29(土) または 5/30(日)（確定後に更新
+ ）
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:urawa_j1-2026-27-r38@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART;VALUE=DATE:20270606
+DTEND;VALUE=DATE:20270607
+TRANSP:TRANSPARENT
+SUMMARY:【J1 第38節】浦和 vs G大阪（時刻未定）
+LOCATION:埼玉スタジアム2002
+DESCRIPTION:大会: 浦和レッズ J1リーグ\nラウンド: 第38節\n
+ 対戦: 浦和 vs G大阪\n会場: 埼玉スタジアム2002\nキックオ
+ フ: 未定
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

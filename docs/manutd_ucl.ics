@@ -1,0 +1,106 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//football-calendar//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Man Utd チャンピオンズリーグ
+X-WR-TIMEZONE:Asia/Tokyo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:manutd_ucl-2026-27-md1@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART:20260910T190000Z
+DTEND:20260910T210000Z
+SUMMARY:【UCL MD1】Man Utd vs Sabah W 4-0
+LOCATION:Old Trafford
+DESCRIPTION:大会: Man Utd チャンピオンズリーグ\nラウンド: M
+ D1\n対戦: Man Utd vs Sabah\n会場: Old Trafford\nキックオフ: 20:00
+ （英国時間）\n結果: W 4-0
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:manutd_ucl-2026-27-md2@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART:20261013T190000Z
+DTEND:20261013T210000Z
+SUMMARY:【UCL MD2】Atlético Madrid vs Man Utd L 0-2
+LOCATION:Riyadh Air Metropolitano
+DESCRIPTION:大会: Man Utd チャンピオンズリーグ\nラウンド: M
+ D2\n対戦: Atlético Madrid vs Man Utd\n会場: Riyadh Air Metropolitano\
+ nキックオフ: 20:00（英国時間）\n結果: L 0-2
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:manutd_ucl-2026-27-md3@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART:20261021T164500Z
+DTEND:20261021T184500Z
+SUMMARY:【UCL MD3】Como vs Man Utd L 1-4
+LOCATION:Stadio Giuseppe Sinigaglia
+DESCRIPTION:大会: Man Utd チャンピオンズリーグ\nラウンド: M
+ D3\n対戦: Como vs Man Utd\n会場: Stadio Giuseppe Sinigaglia\nキック
+ オフ: 17:45（英国時間）\n結果: L 1-4
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:manutd_ucl-2026-27-md4@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART:20261103T200000Z
+DTEND:20261103T220000Z
+SUMMARY:【UCL MD4】Man Utd vs Roma
+LOCATION:Old Trafford
+DESCRIPTION:大会: Man Utd チャンピオンズリーグ\nラウンド: M
+ D4\n対戦: Man Utd vs Roma\n会場: Old Trafford\nキックオフ: 20:00
+ （英国時間）
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:manutd_ucl-2026-27-md5@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART:20261125T200000Z
+DTEND:20261125T220000Z
+SUMMARY:【UCL MD5】Sporting CP vs Man Utd
+LOCATION:Estádio José Alvalade
+DESCRIPTION:大会: Man Utd チャンピオンズリーグ\nラウンド: M
+ D5\n対戦: Sporting CP vs Man Utd\n会場: Estádio José Alvalade\nキ
+ ックオフ: 20:00（英国時間）
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:manutd_ucl-2026-27-md6@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART:20261208T200000Z
+DTEND:20261208T220000Z
+SUMMARY:【UCL MD6】Man Utd vs RB Leipzig
+LOCATION:Old Trafford
+DESCRIPTION:大会: Man Utd チャンピオンズリーグ\nラウンド: M
+ D6\n対戦: Man Utd vs RB Leipzig\n会場: Old Trafford\nキックオフ: 
+ 20:00（英国時間）
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:manutd_ucl-2026-27-md7@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART:20270120T200000Z
+DTEND:20270120T220000Z
+SUMMARY:【UCL MD7】Man Utd vs Bayern München
+LOCATION:Old Trafford
+DESCRIPTION:大会: Man Utd チャンピオンズリーグ\nラウンド: M
+ D7\n対戦: Man Utd vs Bayern München\n会場: Old Trafford\nキックオ
+ フ: 20:00（英国時間）
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:manutd_ucl-2026-27-md8@football-calendar.local
+DTSTAMP:20261120T082159Z
+DTSTART:20270127T200000Z
+DTEND:20270127T220000Z
+SUMMARY:【UCL MD8】Villarreal vs Man Utd
+LOCATION:Estadio de la Cerámica
+DESCRIPTION:大会: Man Utd チャンピオンズリーグ\nラウンド: M
+ D8\n対戦: Villarreal vs Man Utd\n会場: Estadio de la Cerámica\nキッ
+ クオフ: 20:00（英国時間）
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
