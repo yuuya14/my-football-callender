@@ -1,0 +1,46 @@
+name: Fetch upstream fixtures
+
+# 手順1：外部の日程データ（FotMob の配信 ICS と浦和公式の日程ページ）を取得して
+# data/upstream/ に保存するだけのワークフロー。中身を確認してから、
+# 手順2で「CSVへの自動反映・通知」を追加する。
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/fetch-upstream.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download feeds
+        run: |
+          mkdir -p data/upstream
+          UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36"
+          fetch () {
+            # $1=保存名 $2=URL（失敗しても他の取得は続ける）
+            if curl -fsSL -m 60 -A "$UA" -o "data/upstream/$1" "$2"; then
+              echo "OK   $1 ($(wc -c < "data/upstream/$1") bytes)"
+            else
+              echo "FAIL $1 <- $2"
+            fi
+          }
+          fetch fotmob_manutd.ics  "https://pub.fotmob.com/prod/pub/api/v2/calendar/team/10260.ics"
+          fetch fotmob_urawa.ics   "https://pub.fotmob.com/prod/pub/api/v2/calendar/team/6244.ics"
+          fetch urawa_official_game.html "https://www.urawa-reds.co.jp/game/"
+          ls -la data/upstream
+
+      - name: Commit snapshots
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/upstream
+          git diff --cached --quiet || git commit -m "Fetch upstream fixtures (snapshot)"
+          git push
