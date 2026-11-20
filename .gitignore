@@ -1,0 +1,4 @@
+.upstream/
+report.md
+errors.md
+__pycache__/

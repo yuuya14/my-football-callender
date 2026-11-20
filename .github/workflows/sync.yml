@@ -1,0 +1,101 @@
+name: Sync fixtures
+
+# 3時間おきに外部の日程データを取得し、変更があればCSVとカレンダーを更新する。
+#   浦和レッズ … 浦和レッズ公式サイトの日程ページ
+#   Man Utd    … FotMob の配信カレンダー
+# 日程（日時・対戦相手・会場）が変わったときは Issue を作って通知する。
+# 取得に失敗したときも Issue で知らせ、復旧したら自動で閉じる。
+
+on:
+  schedule:
+    - cron: "23 */3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "sync_fixtures.py"
+      - "team_names.json"
+      - ".github/workflows/sync.yml"
+
+permissions:
+  contents: write
+  issues: write
+
+# リポジトリへ書き込むワークフローは同時に走らせない
+concurrency:
+  group: repo-write
+  cancel-in-progress: false
+
+env:
+  ERROR_TITLE: "⚠️ 日程の自動取得に失敗しました"
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: pip install --quiet beautifulsoup4
+
+      - name: Download
+        run: |
+          mkdir -p .upstream
+          UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36"
+          get () { curl -fsSL --retry 2 -m 60 -A "$UA" -o ".upstream/$1" "$2" && echo "OK   $1" || echo "FAIL $1"; }
+          get fotmob_manutd.ics       "https://pub.fotmob.com/prod/pub/api/v2/calendar/team/10260.ics"
+          get urawa_official_game.html "https://www.urawa-reds.co.jp/game/"
+
+      - name: Sync CSV
+        run: python3 sync_fixtures.py --upstream .upstream --report report.md --errors errors.md
+
+      - name: Rebuild calendars and commit
+        run: |
+          if git diff --quiet -- data; then
+            echo "日程の変更はありません"
+            exit 0
+          fi
+          python3 build_ics.py
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data docs
+          git commit -m "Sync fixtures"
+          git pull --rebase origin main
+          git push
+
+      - name: Notify schedule changes
+        if: hashFiles('report.md') != ''
+        run: |
+          {
+            echo "公式発表などにより、以下の日程がカレンダーに反映されました。"
+            echo "iPhoneのカレンダーには数時間以内に自動で反映されます。"
+            echo
+            cat report.md
+            echo "---"
+            echo "登録ページ: https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/"
+          } > body.md
+          gh issue create --title "📅 日程が更新されました（$(TZ=Asia/Tokyo date +%-m/%-d)）" --body-file body.md
+
+      - name: Notify errors / close recovered
+        run: |
+          open=$(gh issue list --state open --search "\"$ERROR_TITLE\" in:title" --json number --jq '.[].number')
+          if [ -s errors.md ]; then
+            if [ -z "$open" ]; then
+              {
+                echo "自動取得で次のエラーが発生しました。復旧すると、このIssueは自動で閉じられます。"
+                echo
+                cat errors.md
+                echo
+                echo "数日たっても閉じない場合は、取得元のサイトの構成が変わった可能性があります。"
+              } > err.md
+              gh issue create --title "$ERROR_TITLE" --body-file err.md
+            fi
+          else
+            for n in $open; do gh issue close "$n" --comment "✅ 自動取得が復旧しました。"; done
+          fi

@@ -8,8 +8,8 @@ X-WR-TIMEZONE:Asia/Tokyo
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:urawa_emperor-106-r2@football-calendar.local
-DTSTAMP:20261120T091858Z
+UID:urawa_emperor-106-2回戦@football-calendar.local
+DTSTAMP:20261120T092809Z
 DTSTART:20260826T100000Z
 DTEND:20260826T120000Z
 SUMMARY:⚽️【天皇杯 2回戦】浦和 vs 山梨学院大 ○3-0
@@ -20,8 +20,8 @@ DESCRIPTION:大会: 浦和レッズ 天皇杯\nラウンド: 2回戦\n対
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:urawa_emperor-106-r3@football-calendar.local
-DTSTAMP:20261120T091858Z
+UID:urawa_emperor-106-3回戦@football-calendar.local
+DTSTAMP:20261120T092809Z
 DTSTART:20261007T090000Z
 DTEND:20261007T110000Z
 SUMMARY:⚽️【天皇杯 3回戦】浦和 vs 大宮 ○3-2
@@ -32,54 +32,54 @@ DESCRIPTION:大会: 浦和レッズ 天皇杯\nラウンド: 3回戦\n対
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:urawa_emperor-106-r16@football-calendar.local
-DTSTAMP:20261120T091858Z
+UID:urawa_emperor-106-ラウンド16(4回戦)@football-calendar.local
+DTSTAMP:20261120T092809Z
 DTSTART:20261209T090000Z
 DTEND:20261209T110000Z
-SUMMARY:⚽️【天皇杯 ラウンド16】G大阪 vs 浦和
+SUMMARY:⚽️【天皇杯 ラウンド16(4回戦)】浦和 vs G大阪
 LOCATION:パナソニック スタジアム 吹田
 DESCRIPTION:大会: 浦和レッズ 天皇杯\nラウンド: ラウンド16
- \n対戦: G大阪 vs 浦和\n会場: パナソニック スタジアム 
- 吹田\nキックオフ: 18:00（日本時間）
+ (4回戦)\n対戦: 浦和 vs G大阪\n会場: パナソニック スタジ
+ アム 吹田\nキックオフ: 18:00（日本時間）
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:urawa_emperor-106-qf@football-calendar.local
-DTSTAMP:20261120T091858Z
+UID:urawa_emperor-106-準々決勝@football-calendar.local
+DTSTAMP:20261120T092809Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 TRANSP:TRANSPARENT
 SUMMARY:⚽️【天皇杯 準々決勝】浦和（時刻未定） ※勝
  ち上がった場合
-LOCATION:未定
+LOCATION:会場未定
 DESCRIPTION:大会: 浦和レッズ 天皇杯\nラウンド: 準々決勝\n
- 対戦: 未定 vs 未定\n会場: 未定\nキックオフ: 未定\n備考:
-  ラウンド16を勝ち上がった場合
+ 対戦: 未定 vs 未定\n会場: 会場未定\nキックオフ: 未定\n
+ 備考: 対戦相手未定（勝ち上がった場合）
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
-UID:urawa_emperor-106-sf@football-calendar.local
-DTSTAMP:20261120T091858Z
+UID:urawa_emperor-106-準決勝@football-calendar.local
+DTSTAMP:20261120T092809Z
 DTSTART:20261227T041000Z
 DTEND:20261227T061000Z
 SUMMARY:⚽️【天皇杯 準決勝】浦和 ※勝ち上がった場合
 LOCATION:埼玉スタジアム2002
 DESCRIPTION:大会: 浦和レッズ 天皇杯\nラウンド: 準決勝\n対
  戦: 未定 vs 未定\n会場: 埼玉スタジアム2002\nキックオフ:
-  13:10（日本時間）\n備考: 準々決勝を勝ち上がった場合
- （会場は大会全体の予定）
+  13:10（日本時間）\n備考: 対戦相手未定（勝ち上がった
+ 場合）
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
-UID:urawa_emperor-106-final@football-calendar.local
-DTSTAMP:20261120T091858Z
+UID:urawa_emperor-106-決勝@football-calendar.local
+DTSTAMP:20261120T092809Z
 DTSTART:20270101T044500Z
 DTEND:20270101T064500Z
 SUMMARY:⚽️【天皇杯 決勝】浦和 ※勝ち上がった場合
-LOCATION:MUFGスタジアム（国立）
+LOCATION:MUFGスタジアム
 DESCRIPTION:大会: 浦和レッズ 天皇杯\nラウンド: 決勝\n対戦
- : 未定 vs 未定\n会場: MUFGスタジアム（国立）\nキックオ
- フ: 13:45（日本時間）\n備考: 準決勝を勝ち上がった場合
+ : 未定 vs 未定\n会場: MUFGスタジアム\nキックオフ: 13:45（
+ 日本時間）\n備考: 対戦相手未定（勝ち上がった場合）
 STATUS:TENTATIVE
 END:VEVENT
 END:VCALENDAR
