@@ -1,0 +1,1078 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+PRODID:-//FOTMOB//FOTMOB 1.0//EN
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+VERSION:2.0
+X-PUBLISHED-TTL:PT6H
+X-WR-CALDESC:Manchester United fixtures
+X-WR-CALNAME:Manchester United
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5449681\nClub Friendlies
+DTEND:20260718T170000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20260718T150000Z
+LOCATION:Helsingin olympiastadion\, Pohjoinen Stadiontie 4\, Helsinki (Hel
+ singfors)\, FIN
+SEQUENCE:0
+SUMMARY:⚽️ Manchester United - Wrexham  (0-1)
+TRANSP:TRANSPARENT
+UID:5449681-10260@fotmob.com
+URL:https://www.fotmob.com/match/5449681
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester United - Wrexham starting in 15 minutes. Notific
+ ations can be turned off in calendar settings
+SUMMARY:⚽️ Manchester United - Wrexham starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5449682\nClub Friendlies
+DTEND:20260724T180000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20260724T160000Z
+LOCATION:Lerkendal Stadion\, Klæbuveien 125\, Trondheim\, NOR
+SEQUENCE:0
+SUMMARY:⚽️ Rosenborg - Manchester United  (0-5)
+TRANSP:TRANSPARENT
+UID:5449682-10260@fotmob.com
+URL:https://www.fotmob.com/match/5449682
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Rosenborg - Manchester United starting in 15 minutes. Notif
+ ications can be turned off in calendar settings
+SUMMARY:⚽️ Rosenborg - Manchester United starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5449683\nClub Friendlies
+DTEND:20260801T150000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20260801T130000Z
+LOCATION:Strawberry Arena\, Råsta Strandväg 1\, Solna\, SWE
+SEQUENCE:0
+SUMMARY:⚽️ Manchester United - Atlético Madrid  (2-1)
+TRANSP:TRANSPARENT
+UID:5449683-10260@fotmob.com
+URL:https://www.fotmob.com/match/5449683
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester United - Atlético Madrid starting in 15 minutes.
+  Notifications can be turned off in calendar settings
+SUMMARY:⚽️ Manchester United - Atlético Madrid starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5449684\nClub Friendlies
+DTEND:20260808T170000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20260808T150000Z
+SEQUENCE:0
+SUMMARY:⚽️ Manchester United - Paris Saint-Germain  (1-1)
+TRANSP:TRANSPARENT
+UID:5449684-10260@fotmob.com
+URL:https://www.fotmob.com/match/5449684
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester United - Paris Saint-Germain starting in 15 minu
+ tes. Notifications can be turned off in calendar settings
+SUMMARY:⚽️ Manchester United - Paris Saint-Germain starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5449685\nClub Friendlies
+DTEND:20260812T203000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20260812T183000Z
+LOCATION:Croke Park\, Russell Street\, Dublin\, IRL
+SEQUENCE:0
+SUMMARY:⚽️ Manchester United - Leeds United  (6-5)
+TRANSP:TRANSPARENT
+UID:5449685-10260@fotmob.com
+URL:https://www.fotmob.com/match/5449685
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester United - Leeds United starting in 15 minutes. No
+ tifications can be turned off in calendar settings
+SUMMARY:⚽️ Manchester United - Leeds United starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5739319\nClub Friendlies
+DTEND:20260815T164500Z
+DTSTAMP:20261119T141942Z
+DTSTART:20260815T144500Z
+LOCATION:Tarczyński Arena\, Aleja Śląska 1\, Wrocław\, POL
+SEQUENCE:0
+SUMMARY:⚽️ Manchester United - Milan  (2-4)
+TRANSP:TRANSPARENT
+UID:5739319-10260@fotmob.com
+URL:https://www.fotmob.com/match/5739319
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester United - Milan starting in 15 minutes. Notificat
+ ions can be turned off in calendar settings
+SUMMARY:⚽️ Manchester United - Milan starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795364\nPremier League
+DTEND:20260822T133000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20260822T113000Z
+LOCATION:MKM Stadium\, Walton Street / Anlaby Road\, Hull\, ENG
+SEQUENCE:0
+SUMMARY:⚽️ Hull City - Manchester United  (2-0)
+TRANSP:TRANSPARENT
+UID:5795364-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795364
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Hull City - Manchester United starting in 15 minutes. Notif
+ ications can be turned off in calendar settings
+SUMMARY:⚽️ Hull City - Manchester United starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795432\nPremier League
+DTEND:20260830T173000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20260830T153000Z
+LOCATION:Old Trafford\, Sir Matt Busby Way\, Manchester\, ENG
+SEQUENCE:0
+SUMMARY:⚽️ Manchester United - Ipswich Town  (5-2)
+TRANSP:TRANSPARENT
+UID:5795432-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795432
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester United - Ipswich Town starting in 15 minutes. No
+ tifications can be turned off in calendar settings
+SUMMARY:⚽️ Manchester United - Ipswich Town starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795438\nPremier League
+DTEND:20260906T150000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20260906T130000Z
+LOCATION:Hill Dickinson Stadium\, 35 Regent Road\, Bramley-Moore Dock\, Va
+ uxhall\, Liverpool\, Merseyside\, ENG
+SEQUENCE:0
+SUMMARY:⚽️ Everton - Manchester United  (2-2)
+TRANSP:TRANSPARENT
+UID:5795438-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795438
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Everton - Manchester United starting in 15 minutes. Notific
+ ations can be turned off in calendar settings
+SUMMARY:⚽️ Everton - Manchester United starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/6106293\nChampions League
+DTEND:20260910T210000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20260910T190000Z
+LOCATION:Old Trafford\, Sir Matt Busby Way\, Manchester\, ENG
+SEQUENCE:0
+SUMMARY:⚽️ Manchester United - Sabah FK  (4-0)
+TRANSP:TRANSPARENT
+UID:6106293-10260@fotmob.com
+URL:https://www.fotmob.com/match/6106293
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester United - Sabah FK starting in 15 minutes. Notifi
+ cations can be turned off in calendar settings
+SUMMARY:⚽️ Manchester United - Sabah FK starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795452\nPremier League
+DTEND:20260913T173000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20260913T153000Z
+LOCATION:Old Trafford\, Sir Matt Busby Way\, Manchester\, ENG
+SEQUENCE:0
+SUMMARY:⚽️ Manchester United - Manchester City  (0-1)
+TRANSP:TRANSPARENT
+UID:5795452-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795452
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester United - Manchester City starting in 15 minutes.
+  Notifications can be turned off in calendar settings
+SUMMARY:⚽️ Manchester United - Manchester City starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/6099329\nEFL Cup
+DTEND:20260916T210000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20260916T190000Z
+LOCATION:Old Trafford\, Sir Matt Busby Way\, Manchester\, ENG
+SEQUENCE:0
+SUMMARY:⚽️ Manchester United - Brighton & Hove Albion  (2-3)
+TRANSP:TRANSPARENT
+UID:6099329-10260@fotmob.com
+URL:https://www.fotmob.com/match/6099329
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester United - Brighton & Hove Albion starting in 15 m
+ inutes. Notifications can be turned off in calendar settings
+SUMMARY:⚽️ Manchester United - Brighton & Hove Albion starting in 15 minut
+ es
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795459\nPremier League
+DTEND:20260920T173000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20260920T153000Z
+LOCATION:Craven Cottage\, Stevenage Road\, London\, ENG
+SEQUENCE:0
+SUMMARY:⚽️ Fulham - Manchester United  (1-1)
+TRANSP:TRANSPARENT
+UID:5795459-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795459
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Fulham - Manchester United starting in 15 minutes. Notifica
+ tions can be turned off in calendar settings
+SUMMARY:⚽️ Fulham - Manchester United starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795473\nPremier League
+DTEND:20261010T183000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20261010T163000Z
+LOCATION:Old Trafford\, Sir Matt Busby Way\, Manchester\, ENG
+SEQUENCE:0
+SUMMARY:⚽️ Manchester United - Tottenham Hotspur  (1-1)
+TRANSP:TRANSPARENT
+UID:5795473-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795473
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester United - Tottenham Hotspur starting in 15 minute
+ s. Notifications can be turned off in calendar settings
+SUMMARY:⚽️ Manchester United - Tottenham Hotspur starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/6106267\nChampions League
+DTEND:20261013T210000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20261013T190000Z
+LOCATION:Riyadh Air Metropolitano\, Avenida de Luis Aragonés\, 4\, San Bla
+ s-Canillejas\, Madrid\, ESP
+SEQUENCE:0
+SUMMARY:⚽️ Atlético Madrid - Manchester United  (2-0)
+TRANSP:TRANSPARENT
+UID:6106267-10260@fotmob.com
+URL:https://www.fotmob.com/match/6106267
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Atlético Madrid - Manchester United starting in 15 minutes.
+  Notifications can be turned off in calendar settings
+SUMMARY:⚽️ Atlético Madrid - Manchester United starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795480\nPremier League
+DTEND:20261018T150000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20261018T130000Z
+LOCATION:Elland Road\, Elland Road\, Leeds\, West Yorkshire\, ENG
+SEQUENCE:0
+SUMMARY:⚽️ Leeds United - Manchester United  (1-1)
+TRANSP:TRANSPARENT
+UID:5795480-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795480
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Leeds United - Manchester United starting in 15 minutes. No
+ tifications can be turned off in calendar settings
+SUMMARY:⚽️ Leeds United - Manchester United starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/6106410\nChampions League
+DTEND:20261021T184500Z
+DTSTAMP:20261119T141942Z
+DTSTART:20261021T164500Z
+LOCATION:Stadio Giuseppe Sinigaglia\, Via Giuseppe Sinigaglia\, 3\, Como\,
+  ITA
+SEQUENCE:0
+SUMMARY:⚽️ Como - Manchester United  (4-1)
+TRANSP:TRANSPARENT
+UID:6106410-10260@fotmob.com
+URL:https://www.fotmob.com/match/6106410
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Como - Manchester United starting in 15 minutes. Notificati
+ ons can be turned off in calendar settings
+SUMMARY:⚽️ Como - Manchester United starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795493\nPremier League
+DTEND:20261025T160000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20261025T140000Z
+LOCATION:Old Trafford\, Sir Matt Busby Way\, Manchester\, ENG
+SEQUENCE:0
+SUMMARY:⚽️ Manchester United - AFC Bournemouth  (0-3)
+TRANSP:TRANSPARENT
+UID:5795493-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795493
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester United - AFC Bournemouth starting in 15 minutes.
+  Notifications can be turned off in calendar settings
+SUMMARY:⚽️ Manchester United - AFC Bournemouth starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795498\nPremier League
+DTEND:20261031T143000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20261031T123000Z
+LOCATION:Stamford Bridge\, Fulham Road\, London\, ENG
+SEQUENCE:0
+SUMMARY:⚽️ Chelsea - Manchester United  (2-0)
+TRANSP:TRANSPARENT
+UID:5795498-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795498
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Chelsea - Manchester United starting in 15 minutes. Notific
+ ations can be turned off in calendar settings
+SUMMARY:⚽️ Chelsea - Manchester United starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/6106291\nChampions League
+DTEND:20261103T220000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20261103T200000Z
+LOCATION:Old Trafford\, Sir Matt Busby Way\, Manchester\, ENG
+SEQUENCE:0
+SUMMARY:⚽️ Manchester United - Roma  (3-2)
+TRANSP:TRANSPARENT
+UID:6106291-10260@fotmob.com
+URL:https://www.fotmob.com/match/6106291
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester United - Roma starting in 15 minutes. Notificati
+ ons can be turned off in calendar settings
+SUMMARY:⚽️ Manchester United - Roma starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795512\nPremier League
+DTEND:20261108T183000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20261108T163000Z
+LOCATION:Old Trafford\, Sir Matt Busby Way\, Manchester\, ENG
+SEQUENCE:0
+SUMMARY:⚽️ Manchester United - Aston Villa  (4-4)
+TRANSP:TRANSPARENT
+UID:5795512-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795512
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester United - Aston Villa starting in 15 minutes. Not
+ ifications can be turned off in calendar settings
+SUMMARY:⚽️ Manchester United - Aston Villa starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795521\nPremier League
+DTEND:20261122T183000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20261122T163000Z
+LOCATION:Anfield\, Anfield Road\, Liverpool\, ENG
+SEQUENCE:0
+SUMMARY:⚽️ Liverpool - Manchester United
+TRANSP:TRANSPARENT
+UID:5795521-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795521
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Liverpool - Manchester United starting in 15 minutes. Notif
+ ications can be turned off in calendar settings
+SUMMARY:⚽️ Liverpool - Manchester United starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/6106279\nChampions League
+DTEND:20261125T220000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20261125T200000Z
+LOCATION:Estádio José Alvalade\, Rua Professor Fernando da Fonseca\, Lisbo
+ a\, POR
+SEQUENCE:0
+SUMMARY:⚽️ Sporting CP - Manchester United
+TRANSP:TRANSPARENT
+UID:6106279-10260@fotmob.com
+URL:https://www.fotmob.com/match/6106279
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Sporting CP - Manchester United starting in 15 minutes. Not
+ ifications can be turned off in calendar settings
+SUMMARY:⚽️ Sporting CP - Manchester United starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795532\nPremier League
+DTEND:20261128T170000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20261128T150000Z
+LOCATION:Old Trafford\, Sir Matt Busby Way\, Manchester\, ENG
+SEQUENCE:0
+SUMMARY:⚽️ Manchester United - Brentford
+TRANSP:TRANSPARENT
+UID:5795532-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795532
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester United - Brentford starting in 15 minutes. Notif
+ ications can be turned off in calendar settings
+SUMMARY:⚽️ Manchester United - Brentford starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795543\nPremier League
+DTEND:20261202T221500Z
+DTSTAMP:20261119T141942Z
+DTSTART:20261202T201500Z
+LOCATION:St. James' Park\, St. James' Street\, Newcastle upon Tyne\, ENG
+SEQUENCE:0
+SUMMARY:⚽️ Newcastle United - Manchester United
+TRANSP:TRANSPARENT
+UID:5795543-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795543
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Newcastle United - Manchester United starting in 15 minutes
+ . Notifications can be turned off in calendar settings
+SUMMARY:⚽️ Newcastle United - Manchester United starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795551\nPremier League
+DTEND:20261205T170000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20261205T150000Z
+LOCATION:Old Trafford\, Sir Matt Busby Way\, Manchester\, ENG
+SEQUENCE:0
+SUMMARY:⚽️ Manchester United - Coventry City
+TRANSP:TRANSPARENT
+UID:5795551-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795551
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester United - Coventry City starting in 15 minutes. N
+ otifications can be turned off in calendar settings
+SUMMARY:⚽️ Manchester United - Coventry City starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/6106292\nChampions League
+DTEND:20261208T220000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20261208T200000Z
+LOCATION:Old Trafford\, Sir Matt Busby Way\, Manchester\, ENG
+SEQUENCE:0
+SUMMARY:⚽️ Manchester United - RB Leipzig
+TRANSP:TRANSPARENT
+UID:6106292-10260@fotmob.com
+URL:https://www.fotmob.com/match/6106292
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester United - RB Leipzig starting in 15 minutes. Noti
+ fications can be turned off in calendar settings
+SUMMARY:⚽️ Manchester United - RB Leipzig starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795558\nPremier League
+DTEND:20261213T210000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20261213T190000Z
+LOCATION:Selhurst Park\, Holmesdale Road\, London\, ENG
+SEQUENCE:0
+SUMMARY:⚽️ Crystal Palace - Manchester United
+TRANSP:TRANSPARENT
+UID:5795558-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795558
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Crystal Palace - Manchester United starting in 15 minutes. 
+ Notifications can be turned off in calendar settings
+SUMMARY:⚽️ Crystal Palace - Manchester United starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795566\nPremier League
+DTEND:20261220T183000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20261220T163000Z
+LOCATION:Emirates Stadium\, Hornsey Road\, London\, ENG
+SEQUENCE:0
+SUMMARY:⚽️ Arsenal - Manchester United
+TRANSP:TRANSPARENT
+UID:5795566-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795566
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Arsenal - Manchester United starting in 15 minutes. Notific
+ ations can be turned off in calendar settings
+SUMMARY:⚽️ Arsenal - Manchester United starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795582\nPremier League
+DTEND:20261227T183000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20261227T163000Z
+LOCATION:Old Trafford\, Sir Matt Busby Way\, Manchester\, ENG
+SEQUENCE:0
+SUMMARY:⚽️ Manchester United - Nottingham Forest
+TRANSP:TRANSPARENT
+UID:5795582-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795582
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester United - Nottingham Forest starting in 15 minute
+ s. Notifications can be turned off in calendar settings
+SUMMARY:⚽️ Manchester United - Nottingham Forest starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795592\nPremier League
+DTEND:20261230T213000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20261230T193000Z
+LOCATION:Old Trafford\, Sir Matt Busby Way\, Manchester\, ENG
+SEQUENCE:0
+SUMMARY:⚽️ Manchester United - Sunderland
+TRANSP:TRANSPARENT
+UID:5795592-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795592
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester United - Sunderland starting in 15 minutes. Noti
+ fications can be turned off in calendar settings
+SUMMARY:⚽️ Manchester United - Sunderland starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795598\nPremier League
+DTEND:20270102T143000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20270102T123000Z
+LOCATION:American Express Stadium\, Village Way\, Falmer\, East Sussex\, E
+ NG
+SEQUENCE:0
+SUMMARY:⚽️ Brighton & Hove Albion - Manchester United
+TRANSP:TRANSPARENT
+UID:5795598-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795598
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Brighton & Hove Albion - Manchester United starting in 15 m
+ inutes. Notifications can be turned off in calendar settings
+SUMMARY:⚽️ Brighton & Hove Albion - Manchester United starting in 15 minut
+ es
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795612\nPremier League
+DTEND:20270107T220000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20270107T200000Z
+LOCATION:Old Trafford\, Sir Matt Busby Way\, Manchester\, ENG
+SEQUENCE:0
+SUMMARY:⚽️ Manchester United - Newcastle United
+TRANSP:TRANSPARENT
+UID:5795612-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795612
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester United - Newcastle United starting in 15 minutes
+ . Notifications can be turned off in calendar settings
+SUMMARY:⚽️ Manchester United - Newcastle United starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795616\nPremier League
+DTEND:20270116T193000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20270116T173000Z
+LOCATION:Villa Park\, Trinity Road\, Birmingham\, ENG
+SEQUENCE:0
+SUMMARY:⚽️ Aston Villa - Manchester United
+TRANSP:TRANSPARENT
+UID:5795616-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795616
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Aston Villa - Manchester United starting in 15 minutes. Not
+ ifications can be turned off in calendar settings
+SUMMARY:⚽️ Aston Villa - Manchester United starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/6106290\nChampions League
+DTEND:20270120T220000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20270120T200000Z
+LOCATION:Old Trafford
+SEQUENCE:0
+SUMMARY:⚽️ Manchester United - Bayern München
+TRANSP:TRANSPARENT
+UID:6106290-10260@fotmob.com
+URL:https://www.fotmob.com/match/6106290
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester United - Bayern München starting in 15 minutes. 
+ Notifications can be turned off in calendar settings
+SUMMARY:⚽️ Manchester United - Bayern München starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795632\nPremier League
+DTEND:20270124T183000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20270124T163000Z
+LOCATION:Old Trafford
+SEQUENCE:0
+SUMMARY:⚽️ Manchester United - Liverpool
+TRANSP:TRANSPARENT
+UID:5795632-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795632
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester United - Liverpool starting in 15 minutes. Notif
+ ications can be turned off in calendar settings
+SUMMARY:⚽️ Manchester United - Liverpool starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/6106327\nChampions League
+DTEND:20270127T220000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20270127T200000Z
+LOCATION:Estadio de la Ceramica
+SEQUENCE:0
+SUMMARY:⚽️ Villarreal - Manchester United
+TRANSP:TRANSPARENT
+UID:6106327-10260@fotmob.com
+URL:https://www.fotmob.com/match/6106327
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Villarreal - Manchester United starting in 15 minutes. Noti
+ fications can be turned off in calendar settings
+SUMMARY:⚽️ Villarreal - Manchester United starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795637\nPremier League
+DTEND:20270201T220000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20270201T200000Z
+LOCATION:Gtech Community Stadium
+SEQUENCE:0
+SUMMARY:⚽️ Brentford - Manchester United
+TRANSP:TRANSPARENT
+UID:5795637-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795637
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Brentford - Manchester United starting in 15 minutes. Notif
+ ications can be turned off in calendar settings
+SUMMARY:⚽️ Brentford - Manchester United starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795652\nPremier League
+DTEND:20270206T170000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20270206T150000Z
+LOCATION:Old Trafford
+SEQUENCE:0
+SUMMARY:⚽️ Manchester United - Chelsea
+TRANSP:TRANSPARENT
+UID:5795652-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795652
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester United - Chelsea starting in 15 minutes. Notific
+ ations can be turned off in calendar settings
+SUMMARY:⚽️ Manchester United - Chelsea starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795662\nPremier League
+DTEND:20270210T220000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20270210T200000Z
+LOCATION:Old Trafford
+SEQUENCE:0
+SUMMARY:⚽️ Manchester United - Brighton & Hove Albion
+TRANSP:TRANSPARENT
+UID:5795662-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795662
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester United - Brighton & Hove Albion starting in 15 m
+ inutes. Notifications can be turned off in calendar settings
+SUMMARY:⚽️ Manchester United - Brighton & Hove Albion starting in 15 minut
+ es
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795673\nPremier League
+DTEND:20270220T170000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20270220T150000Z
+LOCATION:City Ground\, Nottingham
+SEQUENCE:0
+SUMMARY:⚽️ Nottingham Forest - Manchester United
+TRANSP:TRANSPARENT
+UID:5795673-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795673
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Nottingham Forest - Manchester United starting in 15 minute
+ s. Notifications can be turned off in calendar settings
+SUMMARY:⚽️ Nottingham Forest - Manchester United starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795682\nPremier League
+DTEND:20270227T170000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20270227T150000Z
+LOCATION:Old Trafford
+SEQUENCE:0
+SUMMARY:⚽️ Manchester United - Arsenal
+TRANSP:TRANSPARENT
+UID:5795682-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795682
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester United - Arsenal starting in 15 minutes. Notific
+ ations can be turned off in calendar settings
+SUMMARY:⚽️ Manchester United - Arsenal starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795694\nPremier League
+DTEND:20270303T220000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20270303T200000Z
+LOCATION:Stadium of Light
+SEQUENCE:0
+SUMMARY:⚽️ Sunderland - Manchester United
+TRANSP:TRANSPARENT
+UID:5795694-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795694
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Sunderland - Manchester United starting in 15 minutes. Noti
+ fications can be turned off in calendar settings
+SUMMARY:⚽️ Sunderland - Manchester United starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795702\nPremier League
+DTEND:20270313T170000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20270313T150000Z
+LOCATION:Old Trafford
+SEQUENCE:0
+SUMMARY:⚽️ Manchester United - Everton
+TRANSP:TRANSPARENT
+UID:5795702-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795702
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester United - Everton starting in 15 minutes. Notific
+ ations can be turned off in calendar settings
+SUMMARY:⚽️ Manchester United - Everton starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795712\nPremier League
+DTEND:20270320T170000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20270320T150000Z
+LOCATION:Etihad Stadium
+SEQUENCE:0
+SUMMARY:⚽️ Manchester City - Manchester United
+TRANSP:TRANSPARENT
+UID:5795712-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795712
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester City - Manchester United starting in 15 minutes.
+  Notifications can be turned off in calendar settings
+SUMMARY:⚽️ Manchester City - Manchester United starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795722\nPremier League
+DTEND:20270410T160000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20270410T140000Z
+LOCATION:Old Trafford
+SEQUENCE:0
+SUMMARY:⚽️ Manchester United - Hull City
+TRANSP:TRANSPARENT
+UID:5795722-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795722
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester United - Hull City starting in 15 minutes. Notif
+ ications can be turned off in calendar settings
+SUMMARY:⚽️ Manchester United - Hull City starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795731\nPremier League
+DTEND:20270417T160000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20270417T140000Z
+LOCATION:Portman Road
+SEQUENCE:0
+SUMMARY:⚽️ Ipswich Town - Manchester United
+TRANSP:TRANSPARENT
+UID:5795731-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795731
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Ipswich Town - Manchester United starting in 15 minutes. No
+ tifications can be turned off in calendar settings
+SUMMARY:⚽️ Ipswich Town - Manchester United starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795741\nPremier League
+DTEND:20270424T160000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20270424T140000Z
+LOCATION:Old Trafford
+SEQUENCE:0
+SUMMARY:⚽️ Manchester United - Crystal Palace
+TRANSP:TRANSPARENT
+UID:5795741-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795741
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester United - Crystal Palace starting in 15 minutes. 
+ Notifications can be turned off in calendar settings
+SUMMARY:⚽️ Manchester United - Crystal Palace starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795747\nPremier League
+DTEND:20270501T160000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20270501T140000Z
+LOCATION:Coventry Building Society Arena
+SEQUENCE:0
+SUMMARY:⚽️ Coventry City - Manchester United
+TRANSP:TRANSPARENT
+UID:5795747-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795747
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Coventry City - Manchester United starting in 15 minutes. N
+ otifications can be turned off in calendar settings
+SUMMARY:⚽️ Coventry City - Manchester United starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795755\nPremier League
+DTEND:20270508T160000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20270508T140000Z
+LOCATION:Vitality Stadium
+SEQUENCE:0
+SUMMARY:⚽️ AFC Bournemouth - Manchester United
+TRANSP:TRANSPARENT
+UID:5795755-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795755
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ AFC Bournemouth - Manchester United starting in 15 minutes.
+  Notifications can be turned off in calendar settings
+SUMMARY:⚽️ AFC Bournemouth - Manchester United starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795786\nPremier League
+DTEND:20270515T160000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20270515T140000Z
+LOCATION:Old Trafford
+SEQUENCE:0
+SUMMARY:⚽️ Manchester United - Leeds United
+TRANSP:TRANSPARENT
+UID:5795786-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795786
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester United - Leeds United starting in 15 minutes. No
+ tifications can be turned off in calendar settings
+SUMMARY:⚽️ Manchester United - Leeds United starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795797\nPremier League
+DTEND:20270523T160000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20270523T140000Z
+LOCATION:Tottenham Hotspur Stadium
+SEQUENCE:0
+SUMMARY:⚽️ Tottenham Hotspur - Manchester United
+TRANSP:TRANSPARENT
+UID:5795797-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795797
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Tottenham Hotspur - Manchester United starting in 15 minute
+ s. Notifications can be turned off in calendar settings
+SUMMARY:⚽️ Tottenham Hotspur - Manchester United starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:https://www.fotmob.com/match/5795806\nPremier League
+DTEND:20270530T170000Z
+DTSTAMP:20261119T141942Z
+DTSTART:20270530T150000Z
+LOCATION:Old Trafford
+SEQUENCE:0
+SUMMARY:⚽️ Manchester United - Fulham
+TRANSP:TRANSPARENT
+UID:5795806-10260@fotmob.com
+URL:https://www.fotmob.com/match/5795806
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽️ Manchester United - Fulham starting in 15 minutes. Notifica
+ tions can be turned off in calendar settings
+SUMMARY:⚽️ Manchester United - Fulham starting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
