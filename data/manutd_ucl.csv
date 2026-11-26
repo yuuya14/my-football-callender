@@ -3,7 +3,7 @@ id,date,date_alt,time,round,home,away,venue,result,status,note
 2026-27-md2,2026-10-13,,20:00,MD2,Atlético Madrid,Man Utd,Riyadh Air Metropolitano,L 0-2,confirmed,
 2026-27-md3,2026-10-21,,17:45,MD3,Como,Man Utd,Stadio Giuseppe Sinigaglia,L 1-4,confirmed,
 2026-27-md4,2026-11-03,,20:00,MD4,Man Utd,Roma,Old Trafford,W 3-2,confirmed,
-2026-27-md5,2026-11-25,,20:00,MD5,Sporting CP,Man Utd,Estádio José Alvalade,,confirmed,
+2026-27-md5,2026-11-25,,20:00,MD5,Sporting CP,Man Utd,Estádio José Alvalade,D 2-2,confirmed,
 2026-27-md6,2026-12-08,,20:00,MD6,Man Utd,RB Leipzig,Old Trafford,,confirmed,
 2026-27-md7,2027-01-20,,20:00,MD7,Man Utd,Bayern München,Old Trafford,,confirmed,
 2026-27-md8,2027-01-27,,20:00,MD8,Villarreal,Man Utd,Estadio de la Cerámica,,confirmed,
